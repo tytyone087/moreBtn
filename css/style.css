@@ -1,0 +1,15 @@
+*{margin: 0; padding: 0; }
+li{list-style: none;}
+a{text-decoration: none; color: #eee;}
+
+.main{margin: 0 auto; padding: 0 10px 100px; width: 960px; }
+.gallery:after{content: '' ; display: block; clear: both; }
+.gallery-item{float: left; width:200px; margin-bottom: 10px; padding: 20px; background: #40ca75; animation: fadeIn 1s; box-sizing: border-box;}
+@keyframes fadeIn {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+img{width: 100%;}
+.gallery-item.is-loading{opacity: 0;}
+figcaption{text-align: center;}
+.load-more{padding: 10px 20px; background: #40ca75; color: #fff; width: 100%; box-sizing: border-box; border: none; margin-top: 20px;}
